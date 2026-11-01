@@ -41,4 +41,4 @@ jobs:
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
-          script: touch file2.txt ; cp passwd file2.txt ; cat file2.txt ;
+          script: touch file2.txt ; cp etc/passwd /home/azureuserfile2.txt ; cat file2.txt ;
